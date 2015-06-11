@@ -1,3 +1,7 @@
 blog_homepage:
     path:     /hello/{name}
     defaults: { _controller: BlogBundle:Default:index }
+hoge:
+    path: /
+    defaults: { _controller: BlogBundle:Default:index }
+

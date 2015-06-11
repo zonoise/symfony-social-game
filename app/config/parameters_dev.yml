@@ -10,3 +10,4 @@ parameters:
     mailer_user: null
     mailer_password: null
     secret: 22caf59b0c4ff972e0e592f5471f73c0d47f7195
+    database_path: "/Users/zonoise/dev/symfony-social-game/data/data.db3"
