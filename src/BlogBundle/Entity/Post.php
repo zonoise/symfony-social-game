@@ -151,4 +151,10 @@ class Post
     {
         return $this->updatedAt;
     }
+
+    public function __toString()
+    {
+        return "aaaaa";
+    // TODO: Implement __toString() method.
+    }
 }

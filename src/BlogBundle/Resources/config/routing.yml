@@ -5,3 +5,8 @@ hoge:
     path: /
     defaults: { _controller: BlogBundle:Default:index }
 
+blog_api:
+  resource: "@BlogBundle/Controller/PostApiController.php"
+  prefix: /api/
+  type: rest
+
