@@ -8,3 +8,6 @@ dependencies:
     - app/console doctrine:database:drop --env=test --no-interaction --force
     - app/console doctrine:database:create --env=test --no-interaction
    # - app/console doctrine:migrations:migrate --env=test --no-interaction
+test:
+  override:
+    - phpunit -c app
