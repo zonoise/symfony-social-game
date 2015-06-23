@@ -49,6 +49,11 @@ class Post
      */
     private $updatedAt;
 
+    public function __construct()
+    {
+        $this->updatedAt = new \DateTime();
+        $this->createdAt = new \DateTime();
+    }
 
     /**
      * Get id
