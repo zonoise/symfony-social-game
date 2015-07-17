@@ -23,7 +23,9 @@ class PostType extends AbstractType
     }
     
     /**
+     * 
      * @param OptionsResolverInterface $resolver
+     * 
      */
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
